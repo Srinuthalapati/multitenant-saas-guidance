@@ -7,6 +7,7 @@
     <PackageId>Tailspin.Surveys.Data</PackageId>
     <UserSecretsId>aspnet-Tailspin.Surveys.Data-20151113061518</UserSecretsId>
     <PackageTargetFallback Condition=" '$(TargetFramework)' == 'netcoreapp1.0' ">$(PackageTargetFallback);dotnet5.6;dnxcore50;portable-net45+win8</PackageTargetFallback>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
