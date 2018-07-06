@@ -7,7 +7,6 @@
     <PackageId>Tailspin.Surveys.Data</PackageId>
     <UserSecretsId>aspnet-Tailspin.Surveys.Data-20151113061518</UserSecretsId>
     <PackageTargetFallback Condition=" '$(TargetFramework)' == 'netcoreapp1.0' ">$(PackageTargetFallback);dotnet5.6;dnxcore50;portable-net45+win8</PackageTargetFallback>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,16 +20,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="1.0.0">
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="1.1.1">
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="1.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Logging" Version="1.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="1.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="1.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="1.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="1.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="1.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.2" />
     <PackageReference Include="Microsoft.Extensions.PlatformAbstractions" Version="1.1.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.2" />
   </ItemGroup>
 
   <ItemGroup>
